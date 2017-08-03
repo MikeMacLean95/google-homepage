@@ -1,5 +1,19 @@
-* {margin: 0; padding: 0; /*border: 1px solid black;*/}
+* {
+  margin: 0; padding: 0;
+  font-family: arial, sans-serif;
 
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
 
 /* The logo and search box add buttons later */
 .main {
@@ -23,30 +37,59 @@
 input {
   width: 100%;
   max-width: 545px;
+  min-height: 44px;
 }
 
 .buttons {
   position: relative;
   width:auto;
   margin: 25px auto;
-  left: 156.25px;
+  left: 126.25px;
   align: center;
   padding: 5px 5px;
+
+}
+
+button {
+  background-color: #969494 /*#f2f2f2*/;
+  height: 36px;
+  min-width: 125px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+}
+
+button:hover, button:focus {
+  border: 1px solid #c6c6c6;
+
 }
 
 /* Top nav bar */
-.topnav {
-
-  float:right;
-  position: relative;
-  right: 0px;
-  padding: 20px 20px;
-  word-spacing: 20px;
+ul {
+  list-style-type: none;
+  margin: 0; padding: 0;
 }
+
+li {float: right;}
+
+.topnav a {
+  display: block;
+  color: black;
+  text-align: center;
+}
+.icon {padding:5px;}
+
+.toptxt {padding: 10px;}
 
 /*Footer*/
 
-.footer {position: relative; padding: 20px 0px; }
+.footer {
+  position: absolute;
+  padding: 20px 0px;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
 
 .left {float: left;  margin: 0 20px;}
 .right {float: right; margin:0 20px;}
