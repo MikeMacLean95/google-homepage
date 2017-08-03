@@ -1,0 +1,52 @@
+* {margin: 0; padding: 0; /*border: 1px solid black;*/}
+
+
+/* The logo and search box add buttons later */
+.main {
+  width: 545px;
+
+  padding: 100px 0;
+
+  margin: auto auto;
+
+  position: relative;
+}
+
+.logo {
+  display: block;
+  max-width: 545px;
+  max-height: 200px;
+  margin: 0 auto;
+
+}
+
+input {
+  width: 100%;
+  max-width: 545px;
+}
+
+.buttons {
+  position: relative;
+  width:auto;
+  margin: 25px auto;
+  left: 156.25px;
+  align: center;
+  padding: 5px 5px;
+}
+
+/* Top nav bar */
+.topnav {
+
+  float:right;
+  position: relative;
+  right: 0px;
+  padding: 20px 20px;
+  word-spacing: 20px;
+}
+
+/*Footer*/
+
+.footer {position: relative; padding: 20px 0px; }
+
+.left {float: left;  margin: 0 20px;}
+.right {float: right; margin:0 20px;}
